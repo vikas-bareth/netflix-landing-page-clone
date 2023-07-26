@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/Netflix_icon.svg" type="image/icon type">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body background="images/banner.jpg">
+    <div class="screen">
+        <header>
+            <div class="brand-logo">
+               <img src="./brand-logo.svg" alt="brand-logo">
+            </div>
+            <div class="navigation">
+                <select name="langSelect" id="language" class="langSelect">
+                    
+                    <option value="english"><span class="bi bi-facebook">English</span></option>
+                    <option value="हिन्दी">हिन्दी</option>
+                </select>
+                <!-- <span class="langSelect bi bi-globe">
+                    English
+                </span> -->
+                <span class="sign-in">
+                    Sign In
+                </span>
+            </div>
+        </header>
+
+        <main>
+            <span><h1>Unlimited movies, TV shows, and more.</h1></span>
+            <span><h2>Watch anywhere. Cancel anytime.</h2></span>
+            <span><h3>Ready to watch? Enter your email to create or restart your membership.</h3></span>
+            <div class="input-form">
+                <form action="#">
+                <input type="email" value="" class="input" placeholder="Email Address" required>
+               <button class="input-btn">Get-Started <span class="bi bi-box-arrow-right"></span></button>
+            </form>
+            </div>
+        </main>
+    </div>    
+</body>
+</html>
